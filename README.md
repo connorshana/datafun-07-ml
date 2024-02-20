@@ -7,10 +7,12 @@ This module will include building a model, making predictions, visualizing the m
 
 Project Start
 1.  Create a repository in GitHub with a README file
-    -Clone repository into vscode
+    -Clone repository into vscode  ```git clone https://github.com/connorshana/datafun-07-ml```
 
 1.  Environment setup
-    -Create and activate a virtual environment
-    -Import Dependencies and freeze dependencies into a requirements.txt file
+    -Create and activate a virtual environment ```py -m venv .venv```
+     ```.\.venv\Scripts\Activate.ps1```
+    -Import Dependencies and freeze dependencies into a requirements.txt file  ```py -m pip install jupyterlab pandas matplotlib seaborn```
+    ```py -m pip freeze > requirements.txt```
     -Create a gitignore file 
 
